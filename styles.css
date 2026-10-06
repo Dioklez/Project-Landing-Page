@@ -50,7 +50,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 .container .left {
@@ -64,16 +64,16 @@ h1 {
     font-weight: 900;
 }
 
-.container .left p {
+.hero .container .left p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
 button {
     background-color: #3882F6;
     padding: 10px 40px;
     border-radius: 8px;
-    margin-top: 20px;
     border: none;
     color: #F9FAF8;
     font-size: 18px;
@@ -96,7 +96,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+    padding: 40px 0 120px 0;
 }
 
 .container h2 {
@@ -130,4 +130,60 @@ button {
     width: 150px;
     border: #3882F6 solid 4px;
     border-radius: 16px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    padding: 120px 0px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.name {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.cta {
+    padding: 120px 0px;
+}
+
+.cta .container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 16px;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.cta-container {
+    display: flex;
+    width: 100%;
+    max-width: 850px;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.cta-container .left{
+    max-width: fit-content;
+    padding: 0px;
+    margin: 0px;
+}
+
+.right button{
+    border: #F9FAF8 solid 2px;
 }

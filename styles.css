@@ -16,7 +16,8 @@ body {
 }
 
 .header,
-.hero {
+.hero,
+.footer {
     background-color: #1F2937;
 }
 
@@ -186,4 +187,11 @@ button {
 
 .right button{
     border: #F9FAF8 solid 2px;
+}
+
+.footer .container {
+    padding: 60px 0;
+    text-align: center;
+    font-size: 18px;
+    color: #F9FAF8;
 }
